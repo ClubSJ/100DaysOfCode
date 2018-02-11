@@ -1,0 +1,30 @@
+1.  JS is Case Sensitive
+
+2.  Use camelCase 
+getElementByTagName( ); 
+var greenDuck;
+var aliceTheCamelHasFiveHumps;
+
+// Variables start with lowercase letter:
+var greenDuck;
+
+// Objects and classes start with uppercase letter:
+var date = Date( );
+
+// Constants are all-caps:
+const = CONSTANTLYUPPERCASE;
+
+3.  White-space Matters (to Humans)
+// With white-space (human readable):
+var date = new Date( ) ;
+document.body.innerHTML =  "<h1>" + date + "</h1>";
+
+// Without wite-space (machine readable):
+var date=new Date();document.body.innerHTML="<h1>"+date+"</h1>";
+
+4. End Each Statement with a Semicolon
+
+5. Use Comments Liberally
+// A single-line comment 2 slashes
+
+/* A multi-line comment starts with a slash and an asterisk and ends with an asterisk and a slash. */
